@@ -7,10 +7,15 @@
         * `export PATH=$HOME/rad1o/gcc-arm-none-eabi-4_9-2015q2/bin:$PATH`
     * Debian/Ubuntu: `sudo apt-get install gcc-arm-none-eabi libnewlib-arm-none-eabi`
     * Arch: `sudo pacman -S arm-none-eabi-gcc arm-none-eabi-newlib arm-none-eabi-binutils`
+    * Fedora: `sudo dnf install arm-none-eabi-newlib arm-none-eabi-gcc-cs-c++.x86_64 gcc-c++-arm-linux-gnu.x86_64`
 * python-yaml (http://pyyaml.org/)
     * Debian/Ubuntu: `sudo apt-get install python-yaml`
     * Arch: `sudo pacman -S python-yaml`
+    * Fedora: `sudo dnf install PyYAML`
     * Alternative: via pip/virtualenv
+* to build docs
+    * Fedora: `sudo dnf install doxygen graphviz`
+`
 * libopencm3 (fork, https://github.com/rad1o/libopencm3)
     * If you are using `git`, the preferred way to install
       `libopencm3` is to use the submodule:
@@ -26,6 +31,7 @@
 * dfu-util (optional, convenient for development, http://dfu-util.sourceforge.net/)
     * Debian/Ubuntu: `sudo apt-get install dfu-util`
     * Arch: `sudo pacman -S dfu-util`
+    * Fedora: `sudo dnf install dfu-util`
 
 
 ## Build firmware
